@@ -1,0 +1,7 @@
+#! /bin/bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/erinpronobis/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+#source: https://brew.sh/
+#line 2 & 3 enable you to run brew from any location
